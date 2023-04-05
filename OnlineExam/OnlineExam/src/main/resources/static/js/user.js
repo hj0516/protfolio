@@ -176,10 +176,6 @@ let index = {
 				$(".text2").append("<input type='hidden' id='userEmail' value='" + resp.data.email + "'>" +
 					"<div class='foundPwdBigBox'>비밀번호 재설정</div>" +
 					"<div id='foundId' class='foundPwdBox'>" +
-					"<div class='findIdInfoBox'><input type='password' id='oldPwd' name='oldPwd'  placeholder='현재 비밀번호' onkeyup='oldpwdCheck()' ></div>" +
-					"<div class='newpwdCheck6'>비밀번호는 8자리 이상 문자, 숫자, 특수문자로 구성하여야 합니다.</div>" +
-					"<div class='newpwdCheck7'>비밀번호를 입력해 주세요.</div>" +
-					"<div class='newpwdCheck8'>사용 가능한 비밀번호입니다.</div>" +
 					"<div class='findIdInfoBox'><input type='password' id='userpwd'name='userpwd' placeholder='새로운 비밀번호' onkeyup='newpwdCheck();'></div>" +
 					"<div class='newpwdCheck0'>비밀번호는 8자리 이상 문자, 숫자, 특수문자로 구성하여야 합니다.</div>" +
 					"<div class='newpwdCheck1'>비밀번호를 입력해 주세요.</div>" +

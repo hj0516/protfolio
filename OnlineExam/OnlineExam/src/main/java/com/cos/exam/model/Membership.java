@@ -39,7 +39,7 @@ public class Membership {
 	
 	private String subscribeName; //상품이름
 	
-	private String subscribePrice;   //후원금액
+	private String subscribePrice;   //금액
 	
 	private String payment;   //결제방식
 
